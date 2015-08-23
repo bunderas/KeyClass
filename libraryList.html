@@ -1,8 +1,8 @@
 <h4>Library</h4>
 <h6 id="status">File API & FileReader API not supported</h6>
 <img ng-controller="previewController as preview" id="libPreview" ng-src="{{preview.data}}"></img>
-<table class='table table-hover'>
-	<tr ng-repeat="item in library.itemList" ng-click="library.loadPreview($event)" data-libid="{{item.libID}}">
-		<td>{{item.libID}}</td><td>{{item.name}}</td>
+<table class='table table-hover table-condensed'>
+	<tr ng-repeat="item in library.itemList" ng-click="library.loadPreview($event)" data-libid="{{item.libID}}" >
+		<td class="library-cells">{{item.libID}}</td><td class="library-cells">{{item.name}}</td>
 	</tr>
 </table>
