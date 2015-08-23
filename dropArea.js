@@ -25,7 +25,7 @@
 		  state.className = 'success';
 		  state.innerHTML = 'File API & FileReader available';
 		}
-		 
+		 /*
 		holder.ondragover = function () { this.className = 'hover'; return false; };
 		holder.ondragend = function () { this.className = ''; return false; };
 		holder.ondrop = function (e) {
@@ -44,7 +44,7 @@
 
 		  return false;
 		};				
-
+*/
 	}]);
 /*
 	app.controller('MainCtrl', ['$scope','dataShare',

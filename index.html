@@ -2,16 +2,14 @@
 <html ng-app="keyClass">
     <head>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
         <script type="text/javascript" src="dropArea.js"></script>
         <script type="text/javascript" src="library.js"></script>
         <script type="text/javascript" src="keyClass.js"></script>
     </head>
-    <body class="container" ng-controller="MainController as main">
-        <h1>{{main.testVar}}</h1>
-        <library-list></library-list>
-        <drop-area></drop-area>
-
+    <body ng-controller="MainController as main">
+        <library-list class="col-md-2"></library-list>
     </body>
 
 </html>
